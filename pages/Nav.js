@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <div>
             <nav className={styles.navigation}>
-               <Link href="../../../feature/auth/Auth.js">
+               <Link href="/feature/auth/Auth.js">
                    <a className={styles.navigation__link}>Authorization</a>
                </Link>
                 <Link href="../profile/Profile.js">
@@ -17,9 +17,12 @@ function Navigation() {
                 <Link href="">
                     <a className={styles.navigation__link}>Dashboard</a>
                 </Link>
+                <Link href ="components/layout/Notation/Notation.js">
+                    <a className={styles.navigation__link}>Notations</a>
+                </Link>
             </nav>
         </div>
     )
 }
 
-export default Navigation;
+export {Navigation};
