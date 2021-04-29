@@ -1,0 +1,69 @@
+.note {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2bcc7;
+  width: 40%;
+  padding: 0 0 50px 5px;
+  border-radius: 10px;
+}
+
+.header {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 0.5;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.noteText{
+  width: 80%;
+  padding: 0 5px 0 10px;
+  margin: 0 0 50px 0;
+  border: none;
+  background-color: #fff;
+}
+
+.createBtn {
+  position: absolute;
+ bottom: 0;
+  right: 0;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: #0070f3;
+  background-color: #c2ece0;
+  border-bottom-right-radius: 10px;
+}
+
+.emotions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  background-color: #0070f3;
+  color: #fff;
+  font-size: 1.3em;
+  border-bottom-left-radius: 10px;
+  margin: 0;
+}
+
+.menu {
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+}
+
+.emoji{
+  width: 50px;
+  height: 50px;
+  font-size: 3em;
+}
+
+.emoji:hover{
+  color: orangered;
+  cursor: pointer;
+}
